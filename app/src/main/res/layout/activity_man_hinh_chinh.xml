@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    tools:context=".ManHinhChinh">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginEnd="55dp"
+        android:layout_marginStart="35dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_weight=".5">
+
+            <TextView
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="Lần cầu nguyện"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_corner" />
+
+            <TextView
+                android:id="@+id/txtPity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-40dp"
+                android:padding="10dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_corner2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:padding="5dp"
+            android:layout_weight=".5">
+
+            <Button
+                android:id="@+id/btnThemRoll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+10 "
+                android:textColor="@color/black"
+                android:backgroundTint="@color/offwhite"/>
+
+            <TextView
+                android:id="@+id/txtRoll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:padding="10dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_corner2"
+                android:drawableRight="@drawable/intertwined_fate3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="280dp"
+            android:background="@drawable/banner"
+            android:layout_weight=".5"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginEnd="55dp"
+        android:layout_marginStart="35dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnTTSV"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/ThongTin"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/offwhite"/>
+
+            <Button
+                android:id="@+id/btnThuVien"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/ThuVien"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/offwhite"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn1x"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="x1"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:drawableRight="@drawable/intertwined_fate3" />
+
+            <Button
+                android:id="@+id/btn10x"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="x10"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:drawableRight="@drawable/intertwined_fate3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

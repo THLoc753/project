@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Gacha Simulator</string>
+    <string name="Hoten">Trần Hữu Lộc</string>
+    <string name="Lop">D21_TH14</string>
+    <string name="MSSV">DH52111257</string>
+    <string name="ThongTin"> Thông Tin</string>
+    <string name="ThuVien">Thư Viện Nhân Vật</string>
+    <string name="Thoat">Thoát</string>
+
+    <string name="TenDangNhap">Nhập địa chỉ mail/ Tên người dùng</string>
+    <string name="MatKhau">Nhập mật khẩu</string>
+    <string name="MatKhau2">Nhập lại mật khẩu</string>
+    <string name="DangNhap">Đăng nhập</string>
+    <string name="DangKy">Đăng ký</string>
+    <string name="XacNhan">Xác nhận</string>
+
+</resources>

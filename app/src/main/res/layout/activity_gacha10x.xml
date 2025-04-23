@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gacha_bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Gacha_10x">
+
+    <Button
+        android:id="@+id/btn10xThoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_gravity="end"
+        android:text="@string/Thoat"
+        android:textColor="@color/gold"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2"
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img_4"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2"
+            ></ImageView>
+
+        <ImageView
+            android:id="@+id/img_5"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2">
+        </ImageView>
+        <ImageView
+            android:id="@+id/img_6"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2"
+            >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img_7"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2"></ImageView>
+
+        <ImageView
+            android:id="@+id/img_8"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img_9"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2"></ImageView>
+
+        <ImageView
+            android:id="@+id/img_10"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner2">
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

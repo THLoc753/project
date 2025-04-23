@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gacha_bg">
+
+    <Button
+        android:id="@+id/btn1xThoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="end"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Thoat"
+        android:textColor="@color/gold"
+        />
+
+    <!-- ImageView sẽ ở giữa -->
+    <ImageView
+        android:id="@+id/imgView1x"
+        android:layout_width="480dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"/>
+
+    <!-- TextView sẽ nằm đè lên ImageView -->
+    <TextView
+        android:id="@+id/txtName1x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_vertical"
+        android:text="Amber"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/txtRarity1x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_vertical"
+        android:text="3 star"
+        android:textColor="@color/yellow"
+        android:textSize="18sp" />
+
+</FrameLayout>
